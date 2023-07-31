@@ -1,0 +1,12 @@
+﻿import sys
+
+argvs = sys.argv
+message = argvs[1]
+count = int(argvs[2])
+
+print('開始')
+
+for i in range(count):
+  print('{0} {1}'.format(message,i))
+
+print('完了')
